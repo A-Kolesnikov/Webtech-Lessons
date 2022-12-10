@@ -1,4 +1,29 @@
-/*4.1.e5*/
+/*4.1.e6*/
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 20px;
+    overflow: hidden;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+td:hover{
+    background: #ff8052;
+}
+th:hover{
+    color: #ffffff;
+    background: #d84315;
+}
+
+
+
+
+
+/*4.1.e5
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +51,7 @@
     font-size: 16px;
     margin-bottom: 10px;
   }  
+  */
 
 /*4.1.e4
 button:hover{background: ;}

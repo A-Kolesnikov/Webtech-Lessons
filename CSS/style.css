@@ -27,7 +27,7 @@ th, td{
     position: relative;
 }
 td {font-family: 'Pacifico';}
-th {font-family: shrift2;}
+th {font-family: 'shrift2';}
 
 td:hover{
     background: #ff8052;

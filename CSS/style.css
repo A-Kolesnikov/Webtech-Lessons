@@ -1,11 +1,16 @@
 /*4.1.e6*/
 @font-face {
-    font-family: shrift;
+    font-family: shrift;/*любое удобное навание*/
+    font-style: normal;
+    font-weight: normal;
     src: local(ReggaeOne-Regular),/*подгружает шрифты с компа, если они есть в системе*/
-    url(fonts/ReggaeOne-Regular.ttf);/*подгружает шрифты из папки проекта, если их нет в системе*/
+    url(fonts/ReggaeOne-Regular.woff),/*подгружает шрифты из папки проекта, если их нет в системе*/
+    url(fonts/ReggaeOne-Regular.ttf);
 }
 @font-face {
     font-family: shrift2;
+    font-style: normal;
+    font-weight: normal;
     src: url(fonts/RuslanDisplay-Regular.ttf);
 }
 table {

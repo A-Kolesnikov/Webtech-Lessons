@@ -11,7 +11,8 @@
     font-family: shrift2;
     font-style: normal;
     font-weight: normal;
-    src: url(fonts/RuslanDisplay-Regular.ttf);
+    src: url(fonts/RuslanDisplay-Regular.ttf),
+    url(fonts/RuslanDisplay-Regular.woff);
 }
 table {
     border-collapse: collapse;

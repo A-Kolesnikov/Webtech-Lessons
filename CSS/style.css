@@ -8,11 +8,11 @@
     url(fonts/ReggaeOne-Regular.ttf);
 }
 @font-face {
-    font-family: shrift2;
+    font-family: 'shrift2';
     font-style: normal;
     font-weight: normal;
-    src: url(fonts/RuslanDisplay-Regular.ttf),
-    url(fonts/RuslanDisplay-Regular.woff);
+    src: url('fonts/RuslanDisplay-Regular.ttf'),
+    url('fonts/RuslanDisplay-Regular.woff');
 }
 table {
     border-collapse: collapse;

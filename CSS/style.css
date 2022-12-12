@@ -1,8 +1,17 @@
 /*4.1.e6*/
+@font-face {
+    font-family: shrift;
+    src: local(ReggaeOne-Regular),/*подгружает шрифты с компа, если они есть в системе*/
+    url(fonts/ReggaeOne-Regular.ttf);/*подгружает шрифты из папки проекта, если их нет в системе*/
+}
+@font-face {
+    font-family: shrift2;
+    src: url(fonts/RuslanDisplay-Regular.ttf);
+}
 table {
     border-collapse: collapse;
     border: 1px solid black;
-    font-size: 20px;
+    font-size: 30px;
     overflow: hidden;
 }
 th, td{
@@ -11,17 +20,17 @@ th, td{
     text-align: center;
     position: relative;
 }
+td {font-family: 'Pacifico';}
+th {font-family: shrift2;}
+
 td:hover{
     background: #ff8052;
 }
 th:hover{
     color: #ffffff;
-    background: #d84315;
+    background: black;
 }
-
-
-
-
+th:hover::first-letter{font-size: 30px; color: red;}
 
 /*4.1.e5
 *{

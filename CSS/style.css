@@ -1,0 +1,106 @@
+/*4.1.e6*/
+@font-face {
+    font-family: shrift;/*любое удобное навание*/
+    font-style: normal;
+    font-weight: normal;
+    src: local(ReggaeOne-Regular),/*подгружает шрифты с компа, если они есть в системе*/
+    url(fonts/ReggaeOne-Regular.woff),/*подгружает шрифты из папки проекта, если их нет в системе*/
+    url(fonts/ReggaeOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'shrift2';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/RuslanDisplay-Regular.ttf'),
+    url('fonts/RuslanDisplay-Regular.woff');
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-size: 30px;
+    overflow: hidden;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+td {font-family: 'Pacifico';}
+th {font-family: 'shrift2';}
+
+td:hover{
+    background: #ff8052;
+}
+th:hover{
+    color: #ffffff;
+    background: black;
+}
+th:hover::first-letter{font-size: 30px; color: red;}
+
+/*4.1.e5
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Roboto;
+  }
+  .block{
+    background: #d9e9e5;
+    padding: 10px;
+    margin: 20px;
+  }
+  .block:hover {
+    background: #c4f2e7;
+  }
+  .title { 
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .title:hover {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }  
+  */
+
+/*4.1.e4
+button:hover{background: ;}
+*/
+
+/*4.1.e3
+#title{
+    color: #230672;
+    font-size: 24px;
+}
+p{
+    font-size: 14px;
+}
+.name{
+    color: #6d48d7;
+}*/
+
+/*4.1.e2
+*{margin: 0; padding: 0;}
+.container {
+    background: url(https://images.unsplash.com/photo-1637085046560-43cc153c86e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-size: 300px 600px;
+    width: 300px;
+    height: 600px;
+    background-position: 40% 10%;
+    text-align: center;
+}
+#title{
+    padding-top: 125px; /*смещаем текст вниз 125px /
+    color: #e3d1b8;
+    font-size: 40px;
+}
+p {
+    padding-top: 80px; /*смещаем текст вниз 80px /
+    color: #110301;
+    font-size: 14px;
+}*/

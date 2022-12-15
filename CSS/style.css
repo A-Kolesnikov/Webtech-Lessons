@@ -1,10 +1,81 @@
-/*4.1.e6*/
+/*4.2.e1*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Roboto;
+  font-style: normal;
+  background: #fffded;
+}
+.container{
+  margin: 0 150px;
+}
+.main-title{
+  padding: 55px 0;
+  color: #753C20;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.block {
+  display: flex;
+  margin-bottom: 55px;
+}
+img{
+  width: 400px;
+  height: 300px;
+}
+.block-text {
+  margin: 0 55px;
+}
+.title {
+  margin-bottom: 55px;
+  color: #D89B82;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.text {
+  color: #000;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}
+::first-letter{text-transform: uppercase;}
+
+.join-title{
+  margin-bottom: 34px;
+  color: #E78326;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.join-text{
+  margin-bottom: 55px;
+  color: #000;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+.email{
+  color: #E78326;
+  text-decoration:none;
+}
+
+/*4.1.e6
 @font-face {
-    font-family: shrift;/*любое удобное навание*/
+    font-family: shrift;/*любое удобное навание/
     font-style: normal;
     font-weight: normal;
-    src: local(ReggaeOne-Regular),/*подгружает шрифты с компа, если они есть в системе*/
-    url(fonts/ReggaeOne-Regular.woff),/*подгружает шрифты из папки проекта, если их нет в системе*/
+    src: local(ReggaeOne-Regular),/*подгружает шрифты с компа, если они есть в системе/
+    url(fonts/ReggaeOne-Regular.woff),/*подгружает шрифты из папки проекта, если их нет в системе/
     url(fonts/ReggaeOne-Regular.ttf);
 }
 @font-face {
@@ -37,6 +108,7 @@ th:hover{
     background: black;
 }
 th:hover::first-letter{font-size: 30px; color: red;}
+*/
 
 /*4.1.e5
 *{
